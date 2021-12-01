@@ -1,3 +1,3 @@
 main :: IO ()
 main =
-    mempty
+    print 1
