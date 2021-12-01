@@ -3,5 +3,5 @@ jobs:
   ormolu:
     runs-on: ubuntu-latest
     steps:
-      - uses: Soarex16/ormolu-format@v5
+      - uses: Soarex16/ormolu-action@v5
       - uses: EndBug/add-and-commit@v7
