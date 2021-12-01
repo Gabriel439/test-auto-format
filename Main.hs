@@ -1,3 +1,3 @@
 main :: IO ()
 main =
-    print 3
+    print 4
