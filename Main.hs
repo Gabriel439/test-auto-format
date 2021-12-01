@@ -1,2 +1,4 @@
 main :: IO ()
-main = print 7
+main =
+    print
+        7
