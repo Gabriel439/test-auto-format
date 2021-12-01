@@ -1,6 +1,7 @@
 on: push
 jobs:
   ormolu:
+    runs-on: ubuntu-latest
     steps:
       - uses: mrkkrp/ormolu-format@v5
       - uses: EndBug/add-and-commit@v7
