@@ -1,2 +1,3 @@
 main :: IO ()
-main = mempty
+main =
+    mempty
