@@ -1,2 +1,2 @@
 main :: IO ()
-main = print 1
+main = print 2
