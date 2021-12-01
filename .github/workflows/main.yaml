@@ -1,4 +1,5 @@
 jobs:
   ormolu:
-    - uses: mrkkrp/ormolu-format@v5
-    - uses: EndBug/add-and-commit@v7
+    steps:
+      - uses: mrkkrp/ormolu-format@v5
+      - uses: EndBug/add-and-commit@v7
