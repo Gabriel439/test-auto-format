@@ -1,4 +1,4 @@
-IFS=$'\n' FILES=( $(git diff --name-only --cached) )
+IFS=$'\n' FILES=( $(git diff --name-only --cached | grep '\.hs$' ) )
 
 if [ "${#FILES[@]}" -ne 0 ]; then
 	nix run github:NixOS/nixpkgs/release-21.11#legacyPackages.x86_64-darwin.haskellPackages.fourmolu -- --mode inplace "${FILES[@]}"
